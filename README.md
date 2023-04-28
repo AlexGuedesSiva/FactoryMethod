@@ -14,9 +14,13 @@ Endpoints da API REST
 A classe UserController implementa quatro endpoints da API REST, que correspondem aos quatro métodos de CRUD (Create, Read, Update, Delete) que podem ser executados sobre a entidade User:
 
 GET /users: retorna a lista de todos os usuários cadastrados.
+
 GET /users/{id}: retorna os dados do usuário com o ID informado.
+
 POST /users: cria um novo usuário com os dados informados no corpo da requisição.
+
 PUT /users/{id}: atualiza os dados do usuário com o ID informado, com base nos dados enviados no corpo da requisição.
+
 DELETE /users/{id}: exclui o usuário com o ID informado.
 
 Conclusão
